@@ -7,15 +7,52 @@
     <meta name="google-site-verification" content="mqv6XC8MxJh-zWghO4kJ-LzmXQd5IWcb1Hmw3cxeTrg" />
     <meta name="description" content="Interlink Software Public Github Repositories">
     <meta name="keywords" content="Interlink Software, Github, Repo, Repository">
-    <!--meta http-equiv="Refresh" content="0; url='https://github.com/interlinksoftware'" /-->
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
 </head>
 
+<style>
+    * {
+        font-family: "Roboto", sans-serif;
+        color: #fff;
+    }
+
+    body {
+        background: url("https://auth.interlinksoftware.com/auth/resources/qhok1/login/interlink/img/background.png");
+        background-size: cover;
+        background-repeat: no-repeat;
+        display: flex;
+        min-height: 100vh;
+        flex-direction: column;
+    }
+
+    #test {
+        margin: auto;
+        width: 100%;
+        padding-bottom: 2.5rem;
+        text-align: center;
+    }
+
+    .first-word {
+        font-weight: bold;
+    }
+</style>
+
 <body>
-    <div itemscope itemtype="https://github.com/interlinksoftware">
-        <h1 itemprop="name">Interlink Software Github</h1>
-        <span itemprop="description">Interlink Software Public Github Repositories</span>
-        <span itemprop="url"><a href="https://github.com/interlinksoftware">https://github.com/interlinksoftware</a></span>
-    </div>
+    <main id="test">
+        <div itemscope itemtype="https://github.com/interlinksoftware">
+            <h1 itemprop="name"><i class="fa-brands fa-github"></i><span class="first-word"> Interlink</span> Software Github</h1>
+            <span itemprop="description">Redirecting to : Interlink Software Public Github Repositories <i class="fa-spin fa-light fa-spinner"></i></span>
+            <p itemprop="url">If redirect fails, click here: <a href="https://github.com/interlinksoftware">https://github.com/interlinksoftware</a></p>
+        </div>
+    </main>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+    <script src="https://kit.fontawesome.com/99eb482b6f.js" crossorigin="anonymous"></script>
+    <script>
+        setTimeout(function () {
+            window.location.href = "https://github.com/interlinksoftware";
+        }, 2000);
+    </script>
 </body>
 
 </html>
